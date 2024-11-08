@@ -110,7 +110,7 @@ class grade_report_grader extends grade_report {
      *
      * More than this causes issues for the browser due to the size of the page.
      */
-    public const MAX_GRADES_PER_PAGE = 200000;
+    public const MAX_GRADES_PER_PAGE = 70000;
 
     /** @var int[] List of available options on the pagination dropdown */
     public const PAGINATION_OPTIONS = [20, 100];
